@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #f1f1f1;
+    }
+    header {
+      background: linear-gradient(145deg, #1f1f1f, #2a2a2a);
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+      color: #ccc;
+    }
+    .btn {
+      margin-top: 20px;
+      padding: 12px 25px;
+      font-size: 1em;
+      color: white;
+      background-color: #0077ff;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-left: 5px solid #0077ff;
+      padding-left: 15px;
+      margin-bottom: 20px;
+    }
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: #1f1f1f;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00000080;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1a1a1a;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Web Designer & Developer | Building Clean, Modern Landing Pages</p>
+    <a href="#portfolio" class="btn">See My Work</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a self-taught web designer passionate about creating clean and modern websites. I specialize in landing pages that convert and look great on any device.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="project-grid">
+      <div class="card">
+        <h3>AI Farmed</h3>
+        <p>A landing page for a Kickstarter campaign built with GitHub Pages.</p>
+      </div>
+      <div class="card">
+        <h3>Coming Soon</h3>
+        <p>Another awesome landing page design in progress.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>What I Do</h2>
+    <div class="project-grid">
+      <div class="card">
+        <h3>Landing Page Design</h3>
+        <p>Beautiful, functional one-page websites for products or services.</p>
+      </div>
+      <div class="card">
+        <h3>HTML/CSS Coding</h3>
+        <p>Hand-coded pages for fast, responsive designs.</p>
+      </div>
+      <div class="card">
+        <h3>GitHub Pages Setup</h3>
+        <p>I can help launch your website using GitHub for free hosting.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Interested in working together?</p>
+    <a href="mailto:your@email.com" class="btn">Email Me</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
